@@ -1,0 +1,395 @@
+@font-face {
+    font-family: 'GoBike';
+    /*
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+*/
+    src: url('../fonts/Blokletters-Balpen.ttf') format('truetype'), url('../fonts/Blokletters-Viltstift.ttf') format('truetype'), url('../fonts/Blokletters-Potlood.ttf') format('truetype');
+}
+
+
+
+body {
+    font-family: GoBike;
+    background-color: #f4f2f0;
+    padding-bottom: 0px;
+}
+
+.navbar {
+    border-radius: none;
+    position: fixed;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    background-color: #f15d58;
+    border-color: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    font-size: 18px;
+    color: #f4f2f0 !important;
+    text-align: center;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    -ms-transition: all .4s;
+    transition: all .4s;
+}
+
+.showmenu{
+    padding-top: 10px;
+}
+
+.navbar a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.navbar a:hover, a:focus {
+    color: #fff;
+    text-decoration: none;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    -ms-transition: all .4s;
+    transition: all .4s;
+}
+
+.navbar-wrapper {
+    height: 45px;
+    width: 45px;
+    background-color: #f15d58;
+    opacity: 0.9;
+    position: absolute;
+    right: 100px;
+    z-index: 999;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.navbar-wrapper > .container {
+    display: none;
+}
+.navbar-wrapper:hover > .container {
+    display: block;
+}
+
+.row carousel-caption{
+	top: 80%;
+	position: absolute;
+}
+.carousel-caption{
+    padding-top: 180px !important;
+    text-shadow: none;
+    position: none;
+    text-align: left;
+}
+
+.carousel-caption p {
+    line-height: 46px;
+}
+
+h1{
+    font-family: impact;
+}
+.banner-title{
+    margin: 0px 20px 20px 0px;
+ }
+
+ .banner-app{
+    float: right;
+ }
+
+.banner-download{
+    padding-top: 60px;
+    position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.banner-download-text{
+    position: absolute;
+    margin: -50px 0px 0px 80px;
+    width: 100%;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.banner-download-google{
+    position: absolute;
+    width: 100%;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.banner-device{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.glyphicon-right{
+    background-image: url(images/glyphicon-chevron-right.png);
+    width: 62px;
+    height: 62px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+
+.glyphicon-left{
+    background-image: url(images/glyphicon-chevron-left.png);
+    width: 62px;
+    height: 62px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+
+
+.carousel-indicators .active{
+    background-image: url(images/carousel-active.png);
+    width: 19px;
+    height: 19px;
+    background-color: transparent;
+    border: none !important;
+}
+
+.carousel-indicators li{
+    background-image: url(images/carousel.png);
+    width: 19px;
+    height: 19px;
+    background-color: transparent;
+    border: none !important;
+}
+
+.bottomline{
+    background-image: url(images/banner-bottomline.png);
+    background-color: #e74c3c;
+    background-repeat: repeat-x;
+}
+
+/* how to start */
+.gobiketitle-start{
+    color:#f15d58;
+    text-align: center;
+    text-shadow: 2px 1px 0 #b83628;
+    font-size: 50px;
+    margin: 60px 0px 50px 0px;
+}
+
+
+
+/* how to play */
+.gobiketitle-play{
+    color:#e67e22;
+    text-align: center;
+    text-shadow: 2px 1px 0 #ca5000;
+    font-size: 50px;
+    margin: 60px 0px 50px 0px;
+}
+
+
+/* detial data */
+.gobiketitle-detial{
+    color:#9b59b6;
+    text-align: center;
+    text-shadow: 2px 1px 0 #8841a3;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+
+/* who's behind this */
+.gobiketitle-member{
+    color:#34495e;
+    text-align: center;
+    text-shadow: 2px 1px 0 #2a3b4b;
+    font-size: 50px;
+    margin: 60px 0px 50px 0px;
+}
+
+.gobiketitle-member-name{
+    font-family: Blokletters-Viltstift;
+    font-size: 24px;
+    color: #34495e;
+    margin-top: 40px;
+}
+
+.gobiketitle-member-post{
+    font-family: Blokletters-Balpen;
+    font-size: 18px;
+    color: #34495e;
+}
+
+.gobiketitle-member-info{
+    color: #34495e;
+    margin-bottom: 30px;
+    line-height: 34px;
+    font-size: 14px;
+}
+
+
+.whos-behind-social{
+    position: absolute;
+    top: -170px;
+    left: 120px;
+    width: 166px;
+    height: 166px;
+    padding-top: 60px;
+    background: #fff;
+    opacity: 0;
+    -moz-border-radius: 85px;
+    -webkit-border-radius: 85px;
+    border-radius: 85px;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    -ms-transition: all .4s;
+    transition: all .4s;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.whos-behind-social :hover{
+    position: absolute;
+    
+    left: 120px;
+    width: 166px;
+    height: 166px;
+    padding-top: 60px;
+    background: #fff;
+    opacity: 0.8;
+    -moz-border-radius: 85px;
+    -webkit-border-radius: 85px;
+    border-radius: 85px;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    -ms-transition: all .4s;
+    transition: all .4s;
+
+}
+
+
+
+
+/* contact us */
+.gobiketitle-contact{
+    color:#939599;
+    text-align: center;
+    text-shadow: 2px 1px 0 #0b0b0b;
+    font-size: 50px;
+    margin: 60px 0px 50px 0px;
+}
+
+.gobike-contact{
+    background: #414042;
+    margin: 0 auto;
+}
+
+.input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-text{
+    margin-top: -40px;
+    text-align: center;
+    color: #f4f2f0;
+}
+
+.contact-text{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.company{
+    color: #f4f2f0; 
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.company-other{
+    color: #939599;
+    font-size: 16px;
+    line-height: 34px;
+}
+
+.contact-bottomline{
+    background-image: url(images/contact-bottomline.png);
+    background-color: #f4f2f0;
+    background-repeat: repeat-x;
+}
+
+/* footer */
+.gobike-footer{
+    background: #2b2b2b;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.footer-copyright{
+    margin-top: 30px;
+}
+
+.footer-social{
+    float: right;
+}
+
+.ultm-weibo{
+    margin: 20px 0px 0px 20px;
+    background-image: url(images/weibo.png);
+    display: inline-block;
+
+}
+
+.ultm-weibo:hover{
+    background-image: url(images/weibo-hover.png);
+}
+
+.weibo-size{
+    width: 47px;
+    height: 39px;
+}
+
+.ultm-github{
+    margin: 20px 0px 0px 20px;
+    background-image: url(images/github.png);
+    display: inline-block;
+}
+
+.ultm-github:hover{
+    background-image: url(images/github-hover.png);
+}
+
+.github-size{
+    width: 39px;
+    height: 39px;
+}
+
+html,body{
+  width:100%;
+  height:100%;
+}
+.block{
+  width:60%;
+  margin:2em 20%;
+}
+
+.gobikeimage{
+    max-width: 100% !important;
+    height: auto;
+    display: block;
+}
+
+.row {
+margin-right: 0px;
+margin-left: 0px;
+}
