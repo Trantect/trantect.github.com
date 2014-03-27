@@ -501,7 +501,7 @@ dd {
 }
 .dl-horizontal dt {
   float: left;
-  width: 120px;
+  width: 150px;
   clear: left;
   text-align: right;
   overflow: hidden;
@@ -509,7 +509,7 @@ dd {
   white-space: nowrap;
 }
 .dl-horizontal dd {
-  margin-left: 130px;
+  margin-left: 180px;
 }
 hr {
   margin: 18px 0;
@@ -1515,13 +1515,13 @@ table .span24 {
 [class^="icon-"],
 [class*=" icon-"] {
   display: inline-block;
-  width: 14px;
-  height: 14px;
+  /*width: 14px;
+  height: 14px;*/
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../img/glyphicons-halflings.png");
-  background-position: 14px 14px;
+  /*background-image: url("../img/glyphicons-halflings.png");
+  background-position: 14px 14px;*/
   background-repeat: no-repeat;
 }
 [class^="icon-"]:last-child,
@@ -2144,6 +2144,8 @@ button.close {
   border: 0;
   -webkit-appearance: none;
 }
+
+
 .btn {
   display: inline-block;
   *display: inline;
@@ -3015,7 +3017,7 @@ input[type="submit"].btn.btn-mini {
   overflow: visible;
   margin-bottom: 18px;
 }
-.navbar-inner {
+/*.navbar-inner {
   min-height: 40px;
   padding-left: 20px;
   padding-right: 20px;
@@ -3034,7 +3036,7 @@ input[type="submit"].btn.btn-mini {
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
   box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
-}
+}*/
 .navbar .container {
   width: auto;
 }
@@ -3210,7 +3212,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   display: block;
   float: left;
-  padding: 8px 20px 12px;
+  padding: 12px 20px 12px;
   mardin-left: -20px;
   font-size: 20px;
   font-weight: 200;
@@ -3254,12 +3256,12 @@ img.bs-icon {
   color: #ffffff;
   text-decoration: none;
 }
-.navbar .nav .active > a,
+/*.navbar .nav .active > a,
 .navbar .nav .active > a:hover {
   color: #ffffff;
   text-decoration: none;
   background-color: #222222;
-}
+}*/
 .navbar .divider-vertical {
   height: 40px;
   width: 1px;
