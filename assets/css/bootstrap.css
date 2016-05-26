@@ -341,11 +341,7 @@ a:hover {
 .container-fluid:after {
   clear: both;
 }
-span.company_name {
-  font-size: 30px;
-  font-weight: bold;
-  display: inline;
-}
+
 
 #slash {
 position: absolute;

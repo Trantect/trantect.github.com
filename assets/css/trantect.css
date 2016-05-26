@@ -55,9 +55,8 @@ a {
 }
 
 .navbar .nav .active > a,
-.navbar .nav .active > a:hover{
-  font-size: 16px;
-  font-weight: 700;
+.navbar .nav .active > a:hover,
+.navbar .nav .active > a:active{
   letter-spacing: 0.01em;
   background: transparent;
   color: #fff;
@@ -84,7 +83,8 @@ transition: all 0.3s ease-out;
 
 .nav-top > li > a{
   color: #fff !important;
-  font-size: 16px;
+  font-size: 15px;
+  margin-top:9px;
 }
 
 
@@ -108,14 +108,6 @@ transition: all 0.3s ease-out;
 }
 
 /* banner */
-.tb{
-  padding-top: 150px;
-  padding-bottom: 20px;
-}
-.banner{
-  margin-top: 60px;
-}
-
 .banner_title{
   font-size: 36px;
   color: #fff;
@@ -150,7 +142,12 @@ transition: all 0.3s ease-out;
   float: right;
 }
 
-/* service */
+/* exploration */
+span.company_name {
+  font-size: 24px;
+  font-weight: bold;
+  display: inline;
+}
 .service_top{
     background-image: url(../img/service_top.png);
     height: 93px;
@@ -169,8 +166,6 @@ transition: all 0.3s ease-out;
 .info{
   font-size: 16px;
   line-height: 1.5;
-  color: #555;
-
 }
 
 .carousel {
@@ -265,11 +260,14 @@ transition: all 0.3s ease-out;
 }
 
 .media >.pull-left {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .pull-left {
   float: left;
+  max-height: 160px;
+  max-width: 160px
+
 }
 
 .media-body > h3{
@@ -533,7 +531,7 @@ position: relative;
 .title_contact{
   color: #fff !important;
   font-size: 40px;
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0px 30px 0px;
   font-weight: 400;
 }
 
@@ -610,4 +608,51 @@ position: relative;
     padding-top: 20px;
     padding-bottom: 20px;
   }
+}
+
+@media (min-width: 992px){
+  .banner > img{
+    margin: 130px 0px 30px 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+  .T_title >h2{
+    font-size: 34px;
+  }
+  .media-icon{
+    width: 110px
+  }
+  .media-body{
+    font-size: 14px;
+  }
+
+  .ex-title{
+    font-size: 22px;
+  }
+  /*.text-bottom > h5{
+    font-weight: bold;*/
+  }
+}
+/*@media (min-width: 992px) and (max-width: 1199px) {*/
+
+
+  .ex-title{
+    font-size: 22px;
+  }
+  .ex-text{
+    font-size: 16px;
+    color:#555;
+    line-height: 24px;
+  }
+  .s-title{
+    font-size: 16px;
+    color:#555;
+    font-weight: bold;
+  }
+
+
+
+.footer-copyright{
+  padding-top: 6px;
 }
