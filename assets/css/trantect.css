@@ -554,7 +554,10 @@ position: relative;
   padding-bottom: 50px;
   padding-top: 30px;
 }
-
+.brand > img{
+  height: 48px;
+  width: 75px;
+}
 .footer_top{
     background-image: url(../img/footer_top.png);
     height: 119px;
@@ -569,6 +572,11 @@ position: relative;
   color: #777;
   font-size: 11pt;
 }
+
+.footer-copyright{
+  padding-top: 10px;
+}
+
 
 .ultm-weibo{
   background: url(../img/weibo.png);
@@ -615,7 +623,7 @@ position: relative;
     margin: 130px 0px 30px 0px;
   }
 }
-
+/* responsive */
 @media (min-width: 768px) and (max-width: 992px){
   .T_title >h2{
     font-size: 34px;
@@ -626,17 +634,9 @@ position: relative;
   .media-body{
     font-size: 14px;
   }
-
-  .ex-title{
-    font-size: 22px;
-  }
-  /*.text-bottom > h5{
-    font-weight: bold;*/
-  }
 }
-/*@media (min-width: 992px) and (max-width: 1199px) {*/
 
-
+/* exploration text */
   .ex-title{
     font-size: 22px;
   }
@@ -651,8 +651,48 @@ position: relative;
     font-weight: bold;
   }
 
+/* responsive */
 
+@media (max-width: 767px){
+  .T_title >h2{
+    font-size: 32px;
+  }
+  .media-icon{
+    width: 100px
+  }
+  .media-body{
+    font-size: 14px;
+  }
 
-.footer-copyright{
-  padding-top: 6px;
+  .ex-title {
+    font-size: 18px;
+  }
+  .job-title{
+    font-size: 18px;
+  }
+  .brand > img{
+    height: 36px;
+    width: 55px;
+  }
+}
+
+@media (max-width: 480px){
+  .T_title >h2{
+    font-size: 28px;
+  }
+  .T_title > P {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0px 30px 0px;
+}
+  .media-icon{
+    width: 90px
+  }
+}
+.media-icon{
+  margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
 }
