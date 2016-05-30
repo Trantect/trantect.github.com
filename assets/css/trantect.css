@@ -87,6 +87,12 @@ transition: all 0.3s ease-out;
   margin-top:9px;
 }
 
+.nav-top {
+  font-size: 15px;
+  margin-top:9px;
+}
+
+
 
 
 .navbar .nav > li > a:hover{
@@ -628,6 +634,9 @@ position: relative;
   .T_title >h2{
     font-size: 34px;
   }
+  .title_contact{
+    font-size: 34px;
+  }
   .media-icon{
     width: 110px
   }
@@ -657,12 +666,18 @@ position: relative;
   .T_title >h2{
     font-size: 32px;
   }
+  .title_contact{
+    font-size: 32px;
+  }
   .media-icon{
     width: 100px
   }
   .media-body{
     font-size: 14px;
   }
+  .h_title{
+    font-size: 18px;
+}
 
   .ex-title {
     font-size: 18px;
@@ -670,7 +685,7 @@ position: relative;
   .job-title{
     font-size: 18px;
   }
-  .brand > img{
+  .navbar-brand > img{
     height: 36px;
     width: 55px;
   }
@@ -680,10 +695,18 @@ position: relative;
   .T_title >h2{
     font-size: 28px;
   }
+
+  .title_contact{
+    font-size: 28px;
+  }
   .T_title > P {
     font-size: 18px;
     color: #555;
     margin: 10px 0px 30px 0px;
+}
+
+  .h_title{
+    font-size: 18px;
 }
   .media-icon{
     width: 90px
@@ -695,4 +718,9 @@ position: relative;
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff !important;
+
 }
