@@ -112,6 +112,42 @@ transition: all 0.3s ease-out;
 .gobike{
   color: #ef7575 !important;
 }
+
+/* banner */
+.banner_title{
+  font-size: 36px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 48px;
+  margin-left: 10px !important;
+}
+
+.banner_1{
+  margin: 0px 35px 40px 0px;
+  float: left
+}
+
+.banner_1_img{
+  display: inline-block;
+}
+
+.banner_1_title{
+  font-size: 18px;
+  color: #fff;
+  margin: 10px 25px 0px 0px;
+}
+
+.banner_3_title{
+  font-size: 18px;
+  color: #fff;
+  margin: 10px 0px 0px 0px;
+}
+
+.banner_right{
+  margin-top: -60px;
+  float: right;
+}
+
 /* exploration */
 span.company_name {
   font-size: 24px;
@@ -388,6 +424,13 @@ span.company_name {
 }
 
 /* job */
+.job_img{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  max-width: 100%;
+  text-align: center;
+}
 .job_top{
   background: url(../img/job-top.png);
   height: 134px;
@@ -421,7 +464,7 @@ span.company_name {
 }
 .button_job{
   text-align: center;
-  margin: 20px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
 }
 .button {
   font-size: 18px !important;
@@ -581,11 +624,6 @@ position: relative;
 }
 
 /* responsive */
-.k_touch > img{
-  width: 48px;
-}
-
-/* responsive */
 @media (min-width: 768px){
   .nav > li > a{
     padding-top: 20px;
@@ -595,7 +633,7 @@ position: relative;
 
 @media (min-width: 992px){
   .banner > img{
-    margin: 130px 0px 5px 0px;
+    margin: 130px 0px 30px 0px;
   }
 }
 /* responsive */
@@ -658,6 +696,9 @@ position: relative;
     height: 36px;
     width: 55px;
   }
+  .jobimg{
+    width:35% !important;
+  }
 }
 
 @media (max-width: 480px){
@@ -692,4 +733,123 @@ position: relative;
 .navbar-inverse .navbar-nav > li > a {
     color: #fff !important;
 
+}
+
+/*.btn-group{
+  padding: 20px;!
+}*/
+
+
+.btn{
+  background-color: #ffc952 !important ;
+  font-weight: 700 !important;
+  border: 3px solid transparent !important;
+  border-color: #222a36 !important;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #222a36;
+  background-color: #ffd374 !important;
+  /*border-color: #fff;*/
+}
+/*.btn-group.open .dropdown-toggle {
+  box-shadow: none !important;
+}*/
+.button_job{
+  margin-bottom: 80px;
+}
+.jobimg{
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+.job_content{
+  margin-bottom: 100px;
+  padding-top: 20px;
+}
+.jbm{
+  padding-top: 15px;
+}
+
+.btn-default {
+color: #333;
+background-color: #fff;
+border-color: #262626 !important;
+}
+
+
+
+/* dropdowns button  */
+
+.dropdown-menu{
+  padding: 7px 6px !important;
+  font-size: 16px !important;
+  color:#333 !important;
+  font-size: 17px !important;
+  border: 3px solid rgba(0, 0, 0, 1) !important;
+  margin: 3px 0 0 !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .175) !important;
+
+}
+
+.dropdown-menu > li > a {
+  padding: 9px 138px 9px 20px !important;
+  font-weight: 700 !important;
+  color: #333 !important;
+  white-space: nowrap !important;
+  text-align: left !important;
+  }
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #262626 !important;
+  text-decoration: none;
+  background-color: #ffce65 !important ;
+  border-radius: 4px;
+  }
+
+  .job_down{
+    width:14px;
+    height: 8px;
+    margin:0 0 4px 14px;
+  }
+
+  a{
+    text-decoration: none !important;
+  }
+/*.modal{
+  width: 50% !important;
+  margin: 0px auto !important;
+}
+.modal.fade.in {
+  top: 10% !important;
+  left: 0px !important;
+  right: 0px !important;
+}*/
+
+.modal-header > h4{
+  font-size: 24px;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    padding: 15px !important;
+    font-size: 18px !important;
+}
+.k_touch > img {
+    width: 48px !important;
+}
+
+.modal-body {
+    overflow-y: auto;
+    max-height: 670px !important;
+    padding: 15px;
+}
+a{
+  color:#333 !important;
 }
