@@ -1,25 +1,14 @@
-
-  /* clear */
-  body,h2,p{margin:0;}
-
-/* font */
-  *{font-family:
-    "PingFangSC-Light"，
-    "helvetica neue"，
-    "hiragino sans gb"，
-    "arial"，
-    "microsoft yahei ui"，
-    "microsoft yahei"，
-    "simsun"，
-    "sans-serif";
-    background-color:#282828;
+/*font */
+  body{font-family:PingFangSC-Light,helvetica neue,hiragino sans gb,arial,microsoft yahei ui,microsoft yahei,simsun,sans-serif;
+    background-color:#282C37;
     font-size:14px;
-    line-height: 20px}
+    line-height: 20px;
+  }
 
 /* main */
   h1{
-    font-size:30px;
-    line-height:80px;
+    font-size:22px;
+    line-height:50px;
     color:#b4b4b4;
     text-align:center;
     margin-left:auto;
@@ -30,18 +19,8 @@
     margin-right:auto;
   }
 
-  h2{
-    font-weight:normal;
-    margin-bottom:5px;
-    color:#b4b4b4
-  }
-
-  p{
-    margin-bottom: 20px
-  }
-
   .main_box{
-    width:450px;
+    width: 500px;
     margin-left:auto;
     margin-right:auto;
   }
@@ -51,9 +30,20 @@
     padding-right:10px
   }
 
-  .text{
-    font-size:15px;
-    color:#d8d8d8
+  .title{
+    font-size:16px;
+    color:#fff;
+    opacity: 0.6;
+    padding-bottom: 10px;
   }
 
- @media (max-width:450px){.main_box{width:94%}}
+  .text{
+    font-size:22px;
+    color:#fff;
+    padding-bottom: 30px;
+    line-height: 30px;
+  }
+
+  p{
+    margin: 0px !important;
+  }
