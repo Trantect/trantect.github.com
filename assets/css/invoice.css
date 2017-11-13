@@ -21,7 +21,7 @@
   }
 
   .main_box{
-    width: 500px;
+    width: 50%;
     margin-left:auto;
     margin-right:auto;
   }
@@ -47,4 +47,12 @@
 
   p{
     margin: 0px !important;
+  }
+
+  @media (max-width: 767px) {
+    .main_box{
+      width: 80%;
+      margin-left:auto;
+      margin-right:auto;
+    }
   }
