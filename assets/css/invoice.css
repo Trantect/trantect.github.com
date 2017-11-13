@@ -1,5 +1,6 @@
 /*font */
-  body{font-family:PingFangSC-Light,helvetica neue,hiragino sans gb,arial,microsoft yahei ui,microsoft yahei,simsun,sans-serif;
+  body{
+    font-family: PingFangSC-Light,helvetica neue,hiragino sans gb,arial,microsoft yahei ui,microsoft yahei,simsun,sans-serif;
     background-color:#282C37;
     font-size:14px;
     line-height: 20px;
