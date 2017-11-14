@@ -55,4 +55,25 @@
       margin-left:auto;
       margin-right:auto;
     }
+    .content{
+      padding-left:10px;
+      padding-right:10px
+    }
+
+    .title{
+      font-size:12px;
+      color:#fff;
+      opacity: 0.6;
+      padding-bottom: 3px;
+    }
+
+    .text{
+      font-size:16px;
+      color:#fff;
+      padding-bottom: 24px;
+      line-height: 26px;
+    }
+    .main_title{
+      font-size: 18px;
+    }
   }
